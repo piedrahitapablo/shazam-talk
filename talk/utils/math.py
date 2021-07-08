@@ -1,5 +1,10 @@
 import numpy as np
 
+TIME_0 = 0
+TIME_1 = 10
+N = 5000
+TIME = np.linspace(TIME_0, TIME_1, N)
+
 
 def wave(time, amplitude, frequency):
     return amplitude * np.sin(2 * np.pi * frequency * time)
